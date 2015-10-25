@@ -77,8 +77,8 @@ public class TestThirdBug {
 
 	    float winRate = (float) winCount/(winCount+loseCount);
 	    System.out.println(String.format("Win count = %d, Lose Count = %d, %.2f", winCount, loseCount, winRate));
-	    assertFalse(winRate > 0.45); 
-	    assertFalse(winRate < 0.40);
+	    assertFalse(winRate > 0.41); 
+	    assertFalse(winRate < 0.43);
 
 	    
 	}
